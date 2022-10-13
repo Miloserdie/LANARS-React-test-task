@@ -1,0 +1,16 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 745px;
+  justify-content: space-between;
+}
+
+.hidden-cards {
+
+  .card {
+    p {
+      visibility: hidden;
+    }
+  }
+}
